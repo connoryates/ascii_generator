@@ -1,0 +1,8 @@
+Generate ASCII art from text input. Usage:
+
+    perl ascii_generator.pl --text '(input)' --font '(input|random|blank)'
+  
+See ascii_generator.pl for list of fonts. Default is epic
+Useful in ~/.bashrc:
+
+    alias='perl ~/$PATH/ascii_generator.pl'
