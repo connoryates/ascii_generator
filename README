@@ -5,4 +5,4 @@ Generate ASCII art from text input. Usage:
 See ascii_generator.pl for list of fonts. Default is epic
 Useful in ~/.bashrc:
 
-    alias='perl ~/$PATH/ascii_generator.pl'
+    alias ascii='perl ~/$PATH/ascii_generator.pl'
