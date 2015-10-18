@@ -75,3 +75,6 @@ sub generate_ascii {
     my ($ascii) = $tree->findvalues('.//table[@width]//pre');
     return $ascii;
 }
+
+1;
+
