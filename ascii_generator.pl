@@ -72,7 +72,7 @@ sub generate_ascii {
     );
 
     my $tree    = HTML::TreeBuilder::XPath->new_from_url($uri->as_string);
-    my ($ascii) = $tree->findvalues('.//table[@width]//pre');
+    my ($ascii) = $tree->findvalues('.//table[@width]//pre') || die 'cannot find ascii art';
     return $ascii;
 }
 
