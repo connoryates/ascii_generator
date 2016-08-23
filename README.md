@@ -6,13 +6,13 @@ Usage:
   
 See ascii_generator.pl for list of fonts. Default is ```epic```
 
-Useful in ~/.bashrc:
+Useful in ```~/.bashrc:```
 
     alias ascii='perl ~/$PATH/ascii_generator.pl'
     
 
 Sample output:
-$ ascii --text 'Linux' --font 'random'
+```$ ascii --text 'Linux' --font 'random'```
 
 ```
  _      _                  
